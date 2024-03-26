@@ -1,2 +1,60 @@
-body{ background-color: navy;}
-*{border: 1px solid rgb(0, 0, 0);}
+
+h1 {
+  color: rgb(0, 0,100);
+  background-color: black;
+  text-align: center;
+  font-family: serif 'bodoni mt';
+  font-size: 100px;
+}
+
+h3{ color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: serif 'bodoni mt';
+  font-size: 20px; }
+h4 {color: black;
+background-color: rgb(0, 0, 100);
+font-family: serif 'bodoni mt';
+font-size: 25px;
+text-align: start;}
+
+
+
+body{ background-color: rgb(0, 0, 100);
+  font-family: serif 'bodoni mt'; align-items: normal;align-content: normal;}
+  nav {
+    display: flex; /* Establece el contenedor como flexbox */
+    padding: 5px;
+    background: rgb(0, 0, 100);
+  }
+  
+  /* Opcional: si deseas alinear los elementos del nav horizontalmente */
+
+  ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  li {
+    /* float: left; */ /* Ya no necesitamos esto */
+    display: inline-flex; /* Establece el elemento <i> como un elemento flexbox en línea */
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
