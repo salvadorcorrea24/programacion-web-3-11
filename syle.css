@@ -1,5 +1,5 @@
 
-h1 {
+.lettitulo{
   color: rgb(0, 0,100);
   background-color: black;
   text-align: center;
@@ -7,31 +7,25 @@ h1 {
   font-size: 100px;
 }
 
-h3{ color: rgb(255, 255, 255);
+.letmedblanfonneg{ color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
   text-align: center;
   font-family: serif 'bodoni mt';
-  font-size: 20px; }
-h4 {color: black;
+  font-size: 30px; }
+.letchinegfonazu{color: black;
 background-color: rgb(0, 0, 100);
 font-family: serif 'bodoni mt';
 font-size: 25px;
-text-align: start;}
+text-align: justify;}
 
 
 
 body{ background-color: rgb(0, 0, 100);
   font-family: serif 'bodoni mt'; align-items: normal;align-content: normal;}
-  nav {
-    display: flex; /* Establece el contenedor como flexbox */
-    padding: 5px;
-    background: rgb(0, 0, 100);
-  }
-  
-  /* Opcional: si deseas alinear los elementos del nav horizontalmente */
 
-  ul {
-    position: -webkit-sticky; /* Safari */
+  
+
+  .ulnb {
     position: sticky;
     top: 0;
     list-style-type: none;
@@ -41,20 +35,64 @@ body{ background-color: rgb(0, 0, 100);
     background-color: #000000;
   }
   
-  li {
+  .linavbar {
     /* float: left; */ /* Ya no necesitamos esto */
     display: inline-flex; /* Establece el elemento <i> como un elemento flexbox en línea */
   }
   
   
-  li a {
+  .anavbar {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
   }
   
-  li a:hover {
-    background-color: #111;
-  }
+
+
+  .backgroundremeras {background-image: url(remeras.jpg) ; height: 500px; font-family: serif 'bodoni mt';
+    font-size: 100px; text-align: center; color: rgb(0, 0,100)}
+
+
+    .container {
+      display: grid; 
+      grid-template-columns: 1.2r 1fr; 
+      grid-template-rows: 0.8fr 1fr 0.5fr; 
+      gap: 0px 0px; 
+      grid-template-areas: 
+        "NAV Text"
+        "photo-con-frase photo-con-frase"
+        "Contactos Contactos"; 
+    }
+
+    .NAV { grid-area: NAV;  display: flex;; background: rgb(0, 0, 100);   ; 
+      ; 
+      max-width: 100%; 
+      height: auto; 
+      margin-right: 20px; 
+      -webkit-flex: 3;
+      -ms-flex: 3;
+      flex: 3;
+      background: rgb(0, 0, 100);padding: 20px;
+      }
+    
+    .Text { grid-area: Text;width: 80%; 
+      align-content: space-between;
+      height: 70%;  
+       -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1; padding: 20px; flex-grow: 1;}
+    
+    .Contactos { grid-area: Contactos; }
+    
+    .photo-con-frase { grid-area: photo-con-frase; padding: 80px;border: 10px solid rgb(0, 0, 0); text-align: center; background-image:url(Greenback.jpg) }
+.flex-container {
+      display: flex;
+      background-color: DodgerBlue;
+    }
+.flex-container > div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+    }
