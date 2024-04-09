@@ -1,48 +1,77 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bullet</title>
-<link rel="stylesheet" href="syle.css">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <h1 class="lettitulo"> Bullet </h1>
-    <ul class="ulnb">
-        <li class="linb"><a class="anb" href="index.html">Home</a></li>
-        <li class="linb"><a class="anb" href="clothing.html">Clothing</a></li>
-        <li class="linb"><a class="anb" href="https://www.instagram.com/bullet_ba/?hl=es">Contact</a></li>
-    </ul>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ropa de Lujo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
-  
-            <div class="Text">
-                <p class="letmedblanfonneg" > 
-                   
-                En las vibrantes calles de Buenos Aires, tres jóvenes universitarios se unieron con un propósito en mente: crear una marca de ropa que reflejara su pasión por la energía urbana y la rebeldía creativa. Así nació "Bullet", una marca que lleva consigo el nombre de "bala de pistola" en inglés. Con una combinación de diseño innovador y materiales de alta calidad, la marca busca trascender las convenciones de la moda convencional. Inspirados por el ritmo vertiginoso de la vida en la ciudad y la constante búsqueda de autenticidad, los fundadores de Bullet se propusieron ofrecer prendas que no solo vistan, sino que también inspiren y empoderen a quienes las llevan puestas. Para ellos, Bullet no es solo una marca de ropa, sino una declaración de individualidad y una invitación a desafiar los límites establecidos. Su objetivo es fusionar el arte con la moda, creando piezas que cuenten historias y capturen la esencia misma del estilo urbano contemporáneo.
-                </p>
-            </div>
-            
-            <div class="ImageAndText">
-                <div class="ph">
-                    <img src="minasbullet.jpeg" alt="NOT LOADING TF" height="70%" width="100%" >
-                </div> 
-            </div>
-            
-        <div class="photo-con-frase">
-                <h1 class="backgroundremeras"> LIVING THE LIFE OF PABLO</h1>
-        </div>
-
-        <div class="contactos" >
-
-            <marquee  direction="right" behavior="alternate" scrollamount="10" loop="3"> => => => => => </marquee>
-
-
-            <h4 class="letchinegfonazu" >
-                <br>
-                Contactos
-                <br>
-                Bulletba@gmail.com
-                <br>
-                11 2621-2809
-            </h4>
-
-
-        </div>
+      <a class="navbar-brand" href="index.html">BULLET</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/bullet_ba/?hl=es">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+
+
+
+  <!-- Carousel -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="minasbullet.jpeg" class="d-block w-100" alt="Imagen de carrusel">
+        <div class="carousel-caption d-none d-md-block text-center">
+          <h5>Bienvenido a nuestra tienda de ropa urbana</h5>
+          <p>Explora nuestra colección exclusiva y encuentra tu estilo único.</p>
+          <a href="borrador.html" class="btn btn-primary btn-lg">Ver productos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Enlace adicional para dispositivos pequeños -->
+  <div class="extra-link text-center mt-3 d-sm-block d-md-none">
+    <a href="borrador.html" class="btn btn-primary btn-lg">Ver productos</a>
+  </div>
+  
+  
+  
+
+  <!-- Texto adicional -->
+<div id="text-grande">
+  <div class="row">
+    <div class="col">
+      <p >
+          En las vibrantes calles de Buenos Aires, tres jóvenes universitarios se unieron con un propósito en mente: crear una marca de ropa que reflejara su pasión por la energía urbana y la rebeldía creativa. Así nació "Bullet", una marca que lleva consigo el nombre de "bala de pistola" en inglés. Con una combinación de diseño innovador y materiales de alta calidad, la marca busca trascender las convenciones de la moda convencional. Inspirados por el ritmo vertiginoso de la vida en la ciudad y la constante búsqueda de autenticidad, los fundadores de Bullet se propusieron ofrecer prendas que no solo vistan, sino que también inspiren y empoderen a quienes las llevan puestas. Para ellos, Bullet no es solo una marca de ropa, sino una declaración de individualidad y una invitación a desafiar los límites establecidos. Su objetivo es fusionar el arte con la moda, creando piezas que cuenten historias y capturen la esencia misma del estilo urbano contemporáneo.
+
+      </p>
+    </div>
+  </div>
+</div>
+
+  <!-- Bootstrap JS (Optional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
