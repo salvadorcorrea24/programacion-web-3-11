@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #000000; /* Color representativo de riqueza */
+}
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+.carousel-item {
+  height: 400px; /* Ajusta según tus necesidades */
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.product {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .extra-link {
+    display: none;
+  }
+}
+
+#text-grande {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.5vw; /* Tamaño de letra en relación con el ancho de la ventana */
+  color: white; /* Color del texto */
+  background-color: black; /* Color de fondo */
+  padding: 20px; /* Espaciado alrededor del texto */
+  line-height: 1.5; /* Altura de línea */
+}
+
+/* Estilo para el texto en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  #text-grande {
+    font-size: 5vw; /* Tamaño de letra en relación con el ancho de la ventana */
+  }
+}
