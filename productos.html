@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ropa de Lujo</title>
-  <!-- Bootstrap CSS -->
+  <title>Bullet Productos</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
   <style>
@@ -15,7 +14,7 @@
 </head>
 <body>
 
-  <!-- Navbar -->
+
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">BULLET</a>
@@ -40,13 +39,13 @@
 
  
 
-  <!-- Productos -->
+
   <section id="products" class="py-5" style="background-color:black">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
           <div class="product" style="background-color:white">
-            <img src="remeras.jpg" alt="Producto 1" class="img-fluid">
+            <img src="remverde.jpeg" alt="Producto 1" class="img-fluid">
             <h4>$39.999</h4>
             <p>Remera Negra "keep coming"</p>
             <a href="prod1.html">Ver detalles</a>
@@ -54,7 +53,7 @@
         </div>
         <div class="col-md-4">
           <div class="product" style="background-color:white">
-            <img src="remeras.jpg" alt="Producto 2" class="img-fluid">
+            <img src="remnaranja.jpeg" alt="Producto 2" class="img-fluid">
             <h4>$39.999</h4>
             <p>Remera Negra "orange is the new black"</p>
             <a href="prod2.html">Ver detalles</a>
@@ -62,7 +61,7 @@
         </div>
         <div class="col-md-4">
           <div class="product" style="background-color:white">
-            <img src="remeras.jpg" alt="Producto 3" class="img-fluid">
+            <img src="remlogo.jpeg" alt="Producto 3" class="img-fluid">
             <h4>$35.555</h4>
             <p>Remera Negra "logo"</p>
             <a href="prod3.html">Ver detalles</a>
@@ -72,7 +71,21 @@
     </div>
   </section>
 
-  <!-- Footer -->
+  <div id=newsletter  >
+    <h2 class="mb-5">Suscríbete a nuestro Newsletter</h2>
+    <form>
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Suscribirse</button>
+    </form>
+  </div>
+
   <footer class="footer mt-auto py-3 bg-dark text-white">
     <div class="container text-center">
       <p>© 2024 BULLET International. Todos los derechos reservados.</p>
@@ -80,7 +93,7 @@
     </div>
   </footer>
 
-  <!-- Bootstrap JS (Optional) -->
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
