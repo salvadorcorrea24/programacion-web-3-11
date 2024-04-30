@@ -9,49 +9,43 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
-
-  
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">BULLET</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="productos.html">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.instagram.com/bullet_ba/?hl=es">Contact</a>
-          </li>
-        </ul>
-      </div>
+        <!-- Logo a la izquierda -->
+        <a class="navbar-brand mr-auto" href="index.html">
+            <img src="logo.jpg" alt="Logo de BULLET" width="100" height="50">
+        </a>
+        <!-- Botón de toggler para dispositivos pequeños -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Elementos de navegación -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/bullet_ba/?hl=es">Contact</a>
+                </li>
+            </ul>
+        </div>
     </div>
   </nav>
 
-
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="minasbullet.jpeg" class="d-block w-100" alt="Imagen de carrusel">
-        <div class="carousel-caption d-none d-md-block text-center">
-          <h5>Bienvenido a nuestra tienda de ropa urbana</h5>
-          <p>Explora nuestra colección exclusiva y encuentra tu estilo único.</p>
-          <a href="productos.html" class="btn btn-primary btn-lg">Ver productos</a>
-        </div>
-      </div>
+  <div style="background-color:black"> 
+    <img src="Greenback.jpg" class="d-block w-100" alt="Imagen de carrusel">
+    <div class="texto-centrado" style="color: rgb(255, 255, 255); font-size:3vw">
+      <h5 style="background-color:black; font-size:3vw">Bienvenido a nuestra tienda de ropa urbana</h5>
+      <p style="background-color:black">Explora nuestra colección exclusiva y encuentra tu estilo único.</p>
+      <a href="productos.html" class="btn btn-primary btn-lg">Ver productos</a>
     </div>
   </div>
-  
+  <div>
 
-  <div class="extra-link text-center mt-3 d-sm-block d-md-none">
-    <a href="productos.html" class="btn btn-primary btn-lg">Ver productos</a>
-  </div>
-  
   
 <div id="text-grande">
   <div class="row">
@@ -86,7 +80,7 @@
     <p><a href="terminos.html" class="text-white">Términos y Condiciones</a></p>
   </div>
 </footer>
-
+  <script src="index.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
