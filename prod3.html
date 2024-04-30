@@ -51,38 +51,6 @@
             <li>Estilo: Casual</li>
             <li>Temporada: Verano</li>
         </ul>
-        <div class="row mt-4">
-          <div class="col">
-            <button class="btn btn-lg btn-block btn-dark">Agregar al carrito</button>
-          </div>
-        </div>
-        <script>
-          // Agregar un evento de clic al botón "Agregar al carrito"
-          var addToCartButton = document.querySelector('.btn-add-to-cart');
-          addToCartButton.addEventListener('click', function() {
-            // Obtener los detalles del producto
-            var productName = this.getAttribute('data-product');
-            var productPrice = parseFloat(this.getAttribute('data-price'));
-        
-            // Crear un objeto de producto con los detalles
-            var product = {
-              name: productName,
-              price: productPrice
-            };
-        
-            // Obtener el carrito actual del almacenamiento local (o crear uno nuevo si no existe)
-            var cart = JSON.parse(localStorage.getItem('cart')) || [];
-        
-            // Agregar el producto al carrito
-            cart.push(product);
-        
-            // Guardar el carrito actualizado en el almacenamiento local
-            localStorage.setItem('cart', JSON.stringify(cart));
-        
-            // Mostrar un mensaje de confirmación
-            alert('¡Producto agregado al carrito!');
-          });
-        </script>
       </div>
     </div>
   </div>
