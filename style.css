@@ -297,3 +297,37 @@ h2{color: #fff;font-size: 2vw;}
     width: 90%; /* Change width to 100% on smaller screens */
   }
 }
+
+.subscription-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+.subscription-form input[type="text"],
+.subscription-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+}
+
+.subscription-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.subscription-form button:hover {
+  background-color: #45a049;
+}
