@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif !important;
   margin: 0;
   padding: 0;
 }
@@ -24,11 +24,8 @@ body {
   padding: 10px;
   border-radius: 5px;
 }
-@media screen and (min-width: 768px) {
-  .extra-link {
-    display: none;
-  }
-}
+
+
 
 #text-grande {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
