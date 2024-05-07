@@ -251,7 +251,6 @@ header{
 
 .info-product{
     padding: 15px 30px;
-    line-height: 2;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -266,8 +265,8 @@ h2{color: #fff;font-size: 2vw;}
 .info-product button{
     border: none;
     background: none;
-    background-color: #000;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     padding: 15px 10px;
     cursor: pointer;
 }
@@ -320,11 +319,11 @@ h2{color: #fff;font-size: 2vw;}
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #4CAF50;
+  background-color: #102811;
   color: white;
   cursor: pointer;
 }
 
 .subscription-form button:hover {
-  background-color: #45a049;
+  background-color: #163417;
 }
